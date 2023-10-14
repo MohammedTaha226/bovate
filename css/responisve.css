@@ -1,0 +1,233 @@
+/*Big Size Screens*/
+@media (min-width: 991px) and (max-width: 1200px)
+{
+	
+	.projects .owl-theme .owl-controls .owl-buttons div,
+	.blog .owl-theme .owl-controls .owl-buttons div
+	{
+		right:0
+	}
+	
+	.projects .owl-theme .owl-controls .owl-buttons div.owl-prev,
+	.blog .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+	.formOrder .container
+	{
+		padding-left:300px
+	}
+	
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	.fixedMenu,
+	.header .menuHeader
+	{
+		display:none;
+	}
+	
+	.slider
+	{
+		padding:200px 0 130px
+	}
+	
+	.slider .logoWhite 
+	{
+		width:250px;
+	}
+	
+	.formOrder .bg
+	{
+		display:none;
+	}
+	
+	.formOrder .container
+	{
+		padding:0
+	}
+	
+	.footer .leftFooter .socialFooter
+	{
+		display:block
+	}
+	
+	.footer .leftFooter .socialFooter li
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	.projects .owl-theme .owl-controls .owl-buttons div,
+	.blog .owl-theme .owl-controls .owl-buttons div
+	{
+		right:0
+	}
+	
+	.projects .owl-theme .owl-controls .owl-buttons div.owl-prev,
+	.blog .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+	.footer .footerDown
+	{
+		text-align:center
+	}
+	
+	.footer .footerDown .copyrights
+	{
+		margin-bottom:15px
+	}
+	
+	.footer .footerDown .copyrights,
+	.footer .footerDown .logoServers,
+	.footer .footerDown .whatsapp
+	{
+		float:none;
+	}
+	
+	.footer .footerDown .whatsapp
+	{
+		display:inline-block
+	}
+	
+	.header .btnHeader
+	{
+		display:none;
+	}
+	
+	.openMenu
+	{
+		display:block;
+		float:left;
+		width:35px;
+		height:35px;
+		border:2px solid #fff;
+		color:#fff;
+		text-align:center;
+		line-height:35px;
+		margin-top:45px;
+		font-size:18px;
+		cursor: pointer
+	}
+	
+	.header.Headerfixed
+	{
+		background-color:#fff;
+		position: fixed;
+		padding:10px 0 15px;
+		border-bottom:1px solid #eee
+	}
+	
+	.header.Headerfixed .logo
+	{
+		width:70px;
+		margin-top:0;
+	}
+	
+	.header.Headerfixed .openMenu
+	{
+		margin-top:15px;
+		color:#000;
+		border-color:#000
+	}
+	
+	.popUp .modal-dialog
+	{
+		width:auto
+	}
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.services .item
+	{
+		margin-bottom:15px;
+	}
+	
+	.slider
+	{
+	    padding: 150px 0 110px;
+	}
+	
+	.slider .logoWhite
+	{
+		width:200px
+	}
+	
+	.header .logo
+	{
+		width:110px
+	}
+
+	
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	
+	.aboutBovate
+	{
+		padding:90px 0
+	}
+	
+	.aboutBovate .container .aboutcontent
+	{
+		padding:70px 25px 60px
+	}
+	
+	.formOrder .form
+	{
+		padding-left:20px;
+		padding-right:20px
+	}
+	
+	.projects .item .project .title
+	{
+		font-size:14px;
+	}
+	
+	.blog .item .project .content .title
+	{
+		text-align:right
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
